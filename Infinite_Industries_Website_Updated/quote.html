@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Get a Free Quote | Infinite Industries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="site-header"></div>
+    <main>
+        <section class="page-hero">
+            <div class="container"><span class="eyebrow">YOUR ROOFING PROJECT STARTS HERE</span>
+                <h1>Get a free<br><em>roofing quote.</em></h1>
+                <p>Share a few details. Choose how you’d like to send your enquiry and our team can follow up.</p>
+            </div>
+        </section>
+        <section class="section container quote-layout">
+            <div class="quote-aside"><span class="eyebrow">LET’S TALK ROOFING</span>
+                <h2>One enquiry.<br><em>A clearer next step.</em></h2>
+                <p>For a more accurate discussion, include your location, approximate roof area and any details about
+                    the building or existing roof.</p>
+                <div class="contact-mini"><span>CALL / WHATSAPP</span><a href="tel:+918825856417">+91 88258
+                        56417</a><span>LOCATION</span><b>Nagercoil, Tamil Nadu</b></div>
+            </div>
+            <form id="enquiryForm" class="enquiry-form">
+                <div class="form-title">
+                    <h2>Project details</h2><span>* Required fields</span>
+                </div>
+                <div class="form-grid"><label>Full name *<input name="name" required autocomplete="name"
+                            placeholder="Your name"></label><label>Mobile number *
+                        <input name="phone" required type="tel" minlength="10" maxlength="16" autocomplete="tel"
+                            placeholder="Your mobile number">
+                    </label><label class="full">Email address<input name="email" type="email" autocomplete="email"
+                            placeholder="Your email (optional)"></label><label class="full">Location / City *<input
+                            name="location" required placeholder="Where is the project located?"></label><label>Roofing
+                        product<select name="product">
+                            <option>Not sure yet</option>
+                            <option>UPVC Roofing</option>
+                            <option>Ceramic Roofing</option>
+                            <option>Monier Roofing</option>
+                            <option>Clay Roofing</option>
+                            <option>Stone Coated Roofing</option>
+                            <option>Other</option>
+                        </select></label><label>Service required<select name="service">
+                            <option>New roof installation</option>
+                            <option>Roof replacement</option>
+                            <option>Roof repair consultation</option>
+                            <option>Product guidance</option>
+                            <option>Other</option>
+                        </select></label><label>Approx. roof area<input name="area"
+                            placeholder="e.g. 1200 sq.ft"></label><label>Preferred contact time<select
+                            name="contactTime">
+                            <option>Any time</option>
+                            <option>Morning</option>
+                            <option>Afternoon</option>
+                            <option>Evening</option>
+                        </select></label><label class="full">Tell us more<textarea name="message" rows="4"
+                            placeholder="Roof type, building details, questions..."></textarea></label></div><label
+                    class="consent"><input type="checkbox" required name="consent"> I agree that Infinite Industries may
+                    contact me about this enquiry.</label><button class="btn btn-gold submit-btn" type="submit">Submit
+                    enquiry <span>↗</span></button>
+                <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
+                <p class="form-footnote">Your enquiry will be delivered automatically to the company email inbox and
+                    Google Sheets once the backend is configured. You do not need to open WhatsApp or email.</p>
+            </form>
+        </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/site.js"></script>
+</body>
+
+</html>
